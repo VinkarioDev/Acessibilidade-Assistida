@@ -1,6 +1,7 @@
 /* Variáveis de cores */
 :root {
   --primary-blue: #0033a8;
+  --secondary-blue:#90acec;
   --light-blue: #e6f0ff;
   --text-dark: #1a1a1a;
   --text-medium: #333333;
@@ -37,5 +38,30 @@ body {
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
+.description{
+  background-color:var(--primary-blue) ;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  
+}
+
+.description h1, h2{
+  font-size: 32px;
+  color: var(--white);
+
+}
+
+.description p{
+  font-size: 18px;
+  color: var(--light-blue);
+}
