@@ -7,6 +7,7 @@
   --white: #ffffff;
   --button-hover: #002b85;
   --box-shadow: rgba(0, 0, 0, 0.1);
+  --light-blue: #f0f9fe;
 }
 
 * {
@@ -39,3 +40,18 @@ body {
     padding: 20px;
 }
 
+.content-cards {
+  background: var(--light-blue);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: auto 1fr;
+  gap: 10px; 
+  padding: 25px;
+}
+
+.card {
+  background: #FFF;
+  grid-column: span 1;
+  border-radius: 10px;
+  min-height: 100px;
+}
