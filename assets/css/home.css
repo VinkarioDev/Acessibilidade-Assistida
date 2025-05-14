@@ -8,6 +8,7 @@
   --button-hover: #002b85;
   --box-shadow: rgba(0, 0, 0, 0.1);
   --light-blue: #f0f9fe;
+  --dark-blue: #2d3c72;
 }
 
 * {
@@ -67,4 +68,7 @@ body {
 .icon-description {
   width: 50px;
   height: 50px;
+}
+.text-card {
+  color: var(--dark-blue);
 }
